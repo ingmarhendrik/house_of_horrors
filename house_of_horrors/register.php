@@ -86,7 +86,7 @@ if (isset($_POST['exited']) && isset($_REQUEST['user_id'])) {
 
 
             if (!empty($user['exited'])) {
-                $status = "Väljus";
+                $status = "Väljunud";
                 $text_color = "text-danger";
             } elseif (!empty($user['entered'])) {
                 $status = "Sisenenud";
